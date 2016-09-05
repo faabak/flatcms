@@ -12,7 +12,7 @@
         {
         $entry = preg_replace('/\\.[^.\\s]{3,4}$/', '', $entry);
         echo("<li>");
-        if ($entry == $CurrentPage or $entry == $_GET["p"])
+        if ($entry == $CurrentPage)
           {
           echo("<a href='index.php?p={$entry}' style='background-color:#f8f8f8;width:110px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden'><i class='material-icons'>&#xE051;&nbsp;</i>{$entry}</a>");
           }
