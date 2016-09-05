@@ -1,0 +1,259 @@
+a {
+	color:#808080;
+	text-decoration:none;
+	}
+
+a:hover {
+	text-decoration:underline;
+	}
+
+body {
+	background-color:#e8e8e8;
+	color:#808080;
+	font-family:'Open Sans','Helvetica','Arial';
+	font-size:12.5px;
+	margin:0px;
+	}
+
+.cmsTopbar {
+	background-color:#808080;
+	color:#ffffff;
+	font-family:'Open Sans','Helvetica','Arial';
+	font-size:12.5px;
+	width:100%;
+	position:fixed;
+	float:left;
+	z-index:900;
+	text-align:left;
+	height:50px;
+	}
+
+.cmsTopbar ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+
+.cmsTopbar ul li {
+	float:left;
+	}
+
+.cmsTopbar ul li a {
+	color:#ffffff;
+	text-decoration:none;
+	padding:10px;
+	margin:5px;
+	float:left;
+	width:220px;
+
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	}
+
+.cmsTopbar ul li a:hover {
+	background-color:rgba(0,0,0,0.1);
+	}
+
+.cmsTopbar ul li a i {
+	font-size:inherit;
+	vertical-align:-15%;
+	}
+
+.cmsTopbar ul li ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+
+
+.cmsToolbar {
+	background-color:#e8e8e8;
+	font-family:'Open Sans','Helvetica','Arial';
+	font-size:12.5px;
+	position:fixed;
+	float:left;
+	text-align:left;
+	border-right:1px solid #d8d8d8;
+
+	width:250px;
+	height:100%;
+	padding-top:50px;
+	z-index:800;
+	left:0px;
+
+	-webkit-transition: left 0.5s; /* Safari 3.1 to 6.0 */
+	transition: left 0.5s;
+	}
+
+.cmsToolbarHolder {
+	position:relative;
+	width:100%;
+	height:50px;
+	z-index:700;
+
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	}
+
+.cmsToolbar ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	padding-top:20px;
+	float:left;
+	}
+
+.cmsToolbar ul li {
+	float:left;
+	}
+
+.cmsToolbar ul li a {
+	color:#808080;
+	text-decoration:none;
+	padding:10px;
+	margin-left:20px;
+	margin-bottom:5px;
+	float:left;
+	width:190px;
+
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	}
+
+.cmsToolbar ul li a:hover {
+	background-color:#f8f8f8;
+	}
+
+.cmsToolbar ul li a i {
+	font-size:inherit;
+	vertical-align:-15%;
+	}
+
+.cmsToolbar ul li ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+
+.cmsPageListing {
+	color:#808080;
+	text-decoration:none;
+	padding:10px;
+	margin-left:20px;
+	margin-bottom:5px;
+	float:left;
+	width:190px;
+
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	}
+
+.cmsPageListing:hover {
+	background-color:#f8f8f8;
+	}
+
+.cmsPageURL {
+	color:#808080 !important;
+	text-decoration:none !important;
+	padding:0px !important;
+	margin-left:0px !important;
+	margin-bottom:0px !important;
+	float:left !important;
+	width:auto !important;
+
+	border-radius:0px !important;
+	-moz-border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	}
+
+.cmsInput {
+	background-color:#ffffff;
+	color:#808080;
+	border:1px solid #e8e8e8;
+	font-family:inherit;
+	font-size:inherit;
+	padding:6px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	}
+
+.cmsEditor {
+	width:100%;
+	min-height:20px;
+	padding:10px;
+	font-family:'Source Code Pro','Consolas';
+	font-size:14px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+
+.cmsButton {
+	background-color:#808080;
+	color:#ffffff;
+	font-family:inherit;
+	font-size:inherit;
+	border:0;
+	padding:8px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	}
+
+.cmsButtonGrey {
+	background-color:#808080;
+	color:#ffffff;
+	font-family:inherit;
+	font-size:inherit;
+	border:0;
+	padding:8px;
+
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	}
+
+.pageBody {
+	width:100%;
+	height:100%;
+	position:absolute;
+	float:left;
+	}
+
+.systemPage {
+	min-width:100%;
+	min-height:100%;
+	position:absolute;
+	z-index:1;
+	float:left;
+	display: table-cell;
+	text-align:center;
+
+	background-color:#e8e8e8;
+	}
+
+.systemPageInner {
+	margin:20px auto;
+	text-align:left;
+
+	background-color:#ffffff;
+	border-bottom:1px solid #c0c0c0;
+	padding:20px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	}
+
+.systemPageInner h2, .cmsToolbar h2 {
+	font-family:inherit;
+	font-weight:normal;
+	margin:0px;
+	}

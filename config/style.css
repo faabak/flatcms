@@ -1,0 +1,32 @@
+body {
+	background-color:#404040;
+	}
+
+/* If you need background-image, put it here in the "pagebody" class instead of in the body */
+
+.pageBody {
+
+	}
+
+.header {
+	background-color:#e0e0e0;
+	width:960px;
+	padding:20px;
+	height:200px;
+	margin:0 auto;
+	}
+
+.content {
+	background-color:#ffffff;
+	width:960px;
+	padding:20px;
+	min-height:260px;
+	margin:0 auto;
+	}
+
+.footer {
+	width:960px;
+	padding:20px;
+	margin:0 auto;
+	text-align:center;
+	}
